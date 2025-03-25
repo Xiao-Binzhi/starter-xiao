@@ -10,6 +10,7 @@ function draw() {
   rect(0, height - s, s, s);
   rect(width - s, 0, s, s);
   rect(width - s, height - s, s, s);
+  text("Xiao binzhi", width / 2, height / 2);
 }
 
 function windowResized() {
