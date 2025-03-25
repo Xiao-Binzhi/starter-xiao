@@ -1,7 +1,7 @@
 function setup() {
   createCanvas(windowWidth, windowHeight);
   textAlign(CENTER, CENTER);
-  textSize(48);
+  textSize(80);
 }
 
 function draw() {
@@ -12,7 +12,7 @@ function draw() {
   rect(0, height - s, s, s);
   rect(width - s, 0, s, s);
   rect(width - s, height - s, s, s);
-  text("Xiao binzhi", width / 2, height / 2);
+  text("Xiao Binzhi", width / 2, height / 2);
 }
 
 function windowResized() {
